@@ -1,0 +1,27 @@
+{
+  "name": "koa-sass",
+  "version": "0.0.0",
+  "description": "Koa SASS middleware",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kasperlewau/koa-sass"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "sass",
+    "scss"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "sass-middleware": "latest"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/koajs/static/issues"
+  },
+  "homepage": "https://github.com/kasperlewau/koa-sass"
+}
