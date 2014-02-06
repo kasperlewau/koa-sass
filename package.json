@@ -18,7 +18,11 @@
   "dependencies": {
     "sass-middleware": "latest"
   },
+  "bugs": {
+    "url": "https://github.com/kasperlewau/koa-sass/issues"
+  },
   "license": "MIT",
   "readmeFilename": "README.md",
+  "readme": "# koa-sass\n\nSASS middleware for Koa\n\n## Installation\n\n```js\n$ npm install koa-sass\n```\n\n## Options\n\nSee [the sass middleware document](https://github.com/blackbeam/sass-middleware).\n\n## Example\n\n```js\nvar sass = require('koa-sass');\nvar serve = require('koa-static');\nvar koa = require('koa');\nvar app = koa();\n\napp.use(sass('./public'));\n\napp.use(serve('./public'));\n\napp.listen(9000);\n```\n\n## License\n\nMIT",
   "homepage": "https://github.com/kasperlewau/koa-sass"
 }
