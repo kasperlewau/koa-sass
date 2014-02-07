@@ -1,6 +1,6 @@
 # koa-sass
 
-SASS middleware for Koa
+Koa wrapper for node-sass
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ npm install koa-sass
 
 ## Options
 
-See [the sass middleware document](https://github.com/blackbeam/sass-middleware).
+See [the node-sass document](https://github.com/andrew/node-sass).
 
 ## Example
 
@@ -20,7 +20,10 @@ var serve = require('koa-static');
 var koa = require('koa');
 var app = koa();
 
-app.use(sass('./public'));
+app.use(sass({
+  src:  __dirname + '/app/styles/',
+  dest: __dirname + '/public/'
+}));
 
 app.use(serve('./public'));
 
