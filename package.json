@@ -1,6 +1,6 @@
 {
   "name": "koa-sass",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Koa SASS middleware",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "index.js"
   ],
   "dependencies": {
-    "sass-middleware": "latest"
+    "node-sass": "latest"
   },
   "bugs": {
     "url": "https://github.com/kasperlewau/koa-sass/issues"
