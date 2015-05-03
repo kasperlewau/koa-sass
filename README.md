@@ -10,7 +10,7 @@ $ npm install koa-sass
 
 ## Options
 
-See [the node-sass document](https://github.com/andrew/node-sass).
+See [the node-sass-middleware document](https://github.com/sass/node-sass-middleware).
 
 ## Example
 
