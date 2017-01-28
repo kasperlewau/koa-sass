@@ -1,6 +1,6 @@
 {
   "name": "koa-sass",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Koa SASS middleware",
   "repository": {
     "type": "git",
