@@ -16,7 +16,7 @@
     "index.js"
   ],
   "dependencies": {
-    "node-sass-middleware": "0.1.0"
+    "node-sass-middleware": "0.10.0"
   },
   "bugs": {
     "url": "https://github.com/kasperlewau/koa-sass/issues"
